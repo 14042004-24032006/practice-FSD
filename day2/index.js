@@ -49,5 +49,7 @@ addBtn.addEventListener("click", () => {
 // Delete last item
 delBtn.addEventListener("click", () => {
     const last = listItem.lastElementChild;
-    if (last) last.remove();
+    if (last){ 
+        last.remove();
+    }
 });
